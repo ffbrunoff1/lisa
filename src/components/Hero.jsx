@@ -36,7 +36,7 @@ export default function Hero() {
             className="text-4xl md:text-6xl lg:text-7xl font-bold text-brand-dark mb-6 leading-tight"
             variants={itemVariants}
           >
-            Drenagem com <span className="gradient-text">excelência</span>,
+            Construção com <span className="gradient-text">excelência</span>,
             projetamos o futuro.
           </motion.h1>
           <motion.p
