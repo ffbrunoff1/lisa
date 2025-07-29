@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
-
 export default function Hero() {
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -12,7 +11,6 @@ export default function Hero() {
       },
     },
   };
-
   const itemVariants = {
     hidden: { opacity: 0, y: 20 },
     visible: {
@@ -21,7 +19,6 @@ export default function Hero() {
       transition: { duration: 0.6, ease: 'easeOut' },
     },
   };
-
   return (
     <section
       id="hero"
@@ -39,7 +36,7 @@ export default function Hero() {
             className="text-4xl md:text-6xl lg:text-7xl font-bold text-brand-dark mb-6 leading-tight"
             variants={itemVariants}
           >
-            Construímos com <span className="gradient-text">excelência</span>,
+            Drenagem com <span className="gradient-text">excelência</span>,
             projetamos o futuro.
           </motion.h1>
           <motion.p
